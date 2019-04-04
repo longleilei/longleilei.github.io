@@ -44,6 +44,11 @@ img{
 	background-repeat: no-repeat;  
 	background-size: cover; /*need to solve it here*/ 
 	display: table;
+	position: relative;
+}
+
+.intro nav {
+	position: absolute;
 }
 
 
@@ -177,7 +182,6 @@ h1{
 
 .gallery{
 	margin-top: 100px;  
-	margin-left: 150px; 
 }
 
 .gallery > .column {
@@ -372,11 +376,6 @@ img.hover-shadow {
 	min-height: 100vh; 
 }
 
-.info{
-	float:left;
-	margin-top:40px;
-	margin-left: 45%;
-}
 
 .info p{
 	font-family: "Helvetica"; 
